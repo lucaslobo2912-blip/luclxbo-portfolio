@@ -161,6 +161,9 @@ const kit = [
 const whatsappUrl =
   "https://wa.me/5586998120345?text=Ol%C3%A1%2C%20Lucas!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20conversar%20sobre%20um%20projeto.";
 
+const githubUrl = "https://github.com/lucaslobo2912-blip";
+const portfolioRepoUrl = `${githubUrl}/luclxbo-portfolio`;
+
 export default function Home() {
   return (
     <main>
@@ -356,17 +359,17 @@ export default function Home() {
         </div>
         <div className="presence-grid">
           <article className="presence-card presence-github">
-            <div className="presence-card-top"><span>CÓDIGO / PROJETOS REAIS</span><b>04</b></div>
-            <h3>Produtos fortes,<br /><em>construídos de verdade.</em></h3>
-            <p>Meus trabalhos de tecnologia mais importantes — estratégia, experiência, interface e desenvolvimento reunidos em produtos publicados e funcionando.</p>
-            <div className="github-repos" aria-label="Projetos técnicos em destaque">
-              <a href="https://clubscenter.com.br/" target="_blank" rel="noreferrer">CLUBSCENTER ↗</a>
-              <a href="https://zaiko-cashguard-app.jomoura37.chatgpt.site/site#product" target="_blank" rel="noreferrer">CASHGUARD ↗</a>
-              <a href="https://zaikostudio.com.br/" target="_blank" rel="noreferrer">ZAIKO STUDIO ↗</a>
-              <a href="https://jomouraconcept.com.br/" target="_blank" rel="noreferrer">JO MOURA ↗</a>
+            <div className="presence-card-top"><span>GITHUB / @LUCASLOBO2912-BLIP</span><b>GH</b></div>
+            <h3>Código visível,<br /><em>trabalho real.</em></h3>
+            <p>Uma visão transparente da minha forma de construir: arquitetura, interface, responsividade, motion e código do portfólio que você está vendo agora.</p>
+            <div className="github-repos" aria-label="Tecnologias do repositório">
+              <span>REACT 19</span><span>NEXT.JS 16</span><span>TYPESCRIPT</span><span>CLOUDFLARE</span>
             </div>
             <div className="github-mark" aria-hidden="true">⌘</div>
-            <a className="presence-link" href="#sites">VER ESTUDOS COMPLETOS ↓</a>
+            <div className="github-actions">
+              <a href={portfolioRepoUrl} target="_blank" rel="noreferrer">VER CÓDIGO <span>↗</span></a>
+              <a href={githubUrl} target="_blank" rel="noreferrer">ABRIR PERFIL <span>↗</span></a>
+            </div>
           </article>
           <div className="presence-list">
             <article className="presence-featured"><span>04</span><div><small>NOVO PROJETO · FUTEBOL VIRTUAL</small><h3>ClubsCenter</h3><p>A central editorial da Super Copa dos Streamers, com notícias, resultados, clubes, rankings, transmissões CCSN e Golden Awards.</p><mark>ABRIR PROJETO ↗</mark></div><a href="https://clubscenter.com.br/" target="_blank" rel="noreferrer" aria-label="Abrir o projeto ClubsCenter">↗</a></article>
@@ -470,6 +473,7 @@ export default function Home() {
           <div className="contact-actions">
             <a className="button light-button" href={whatsappUrl} target="_blank" rel="noreferrer" data-track="whatsapp_click" data-track-label="contact">Falar no WhatsApp <span>↗</span></a>
             <a className="instagram" href="https://instagram.com/luclxbo" target="_blank" rel="noreferrer" data-track="instagram_click" data-track-label="contact">@luclxbo</a>
+            <a className="instagram" href={githubUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
         </div>
       </section>
