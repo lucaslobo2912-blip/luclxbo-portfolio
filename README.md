@@ -1,6 +1,6 @@
 # LUCLXBO — Portfólio Criativo & Tecnologia
 
-![Capa do portfólio LUCLXBO](public/og.png)
+![Capa do portfólio LUCLXBO](https://luclxbo-portfolio.jomoura37.chatgpt.site/og.png)
 
 Portfólio oficial de **Lucas Lobo (LUCLXBO)**, reunindo desenvolvimento de produtos digitais, sites, sistemas, inteligência artificial, direção criativa, videomaking e fotografia.
 
